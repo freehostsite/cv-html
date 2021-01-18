@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🕿 My Contact</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>My Contact Details</h1>
+    <ul style="list-style-type: none;">
+        <li>
+            <p>📧 Mail me at:</p>
+            <p style="text-decoration: underline;"><em>ishanagarwal.info@gmail.com</em></p>
+        </li>
+        <br>
+        <li>
+            <p>📌 Reach me at:</p>
+            <p><em>C-9/42, Near Jama Masjid</em></p>
+            <p><em>Andheri Gali, Tilak Nagar, Kanpur</em></p>
+            <p><em>Uttar Pradesh, India, 403291</em></p>
+        </li>
+    </ul>
+
+    <form action="mailto:ishanagarwal.info@gmail.com" method="POST" enctype="text/plain">
+        <fieldset>
+            <legend>Fill this to send me your details.</legend>
+
+            <label>First Name:</label>
+            <input type="text" name="fname">
+            <br>
+
+            <label>Last Name:</label>
+            <input type="text" name="lname">
+            <br>
+
+            <label>Enter email id:</label>
+            <input type="email" name="email">
+            <br>
+
+            <label>Pick your fav:</label><br>
+            <input type="checkbox" name="ronaldo" value="ronaldo">
+            <label>Ronaldo</label><br>
+            <input type="checkbox" name="messi" value="messi">
+            <label>Messi</label><br>
+            <input type="checkbox" name="random" value="random">
+            <label>Random</label>
+            <br>
+
+            <label>Pick one:</label><br>
+            <input type="radio" id="one" name="Associates" value="one" checked> 
+            <label>One</label><br>
+            <input type="radio" id="two" name="Associates" value="two"> 
+            <label>Two</label><br>
+            <input type="radio" id="three" name="Associates" value="three"> 
+            <label>Three</label>
+            <br>
+
+            <label>DOB:</label><br>
+            <input type="date" name="dob" value="dob">
+            <br>
+
+            <label>Pick fav color:</label><br>
+            <input type="color" name="color">
+            <br>
+
+            <label>Choose meeting time:</label><br>
+            <input type="time" name="meeting time">
+            <br>
+
+            <label>Upload your CV:</label><br>
+            <input type="file" name="resume">
+            <br>
+
+            <label>Your Message:</label><br>
+            <textarea name="" id="" cols="30" rows="10" name="message"></textarea>
+            <br>
+
+            <input type="submit" value="Submit">
+        </fieldset>
+        
+    </form>
+    
+</body>
+</html>
